@@ -12,3 +12,9 @@ setInterval(() => {
     let hr = day.getHours() * 30;
     let mins = day.getMinutes() * 6
     let sec = day.getSeconds() * 6
+
+    
+    min.style.transform = `rotateZ(${(hr)+(mins/12)}deg)`
+    hour.style.transform = `rotateZ(${mins}deg)`
+    tick.style.transform = `rotateZ(${sec}deg)`
+})
