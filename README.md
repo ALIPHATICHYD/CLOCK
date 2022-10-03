@@ -1,1 +1,1 @@
-# CLOCK
+# <code>CLOCK</code>
